@@ -197,7 +197,7 @@ fi
 
         echo "============ Creating a compressed archive of all log files ==========="
 	#zip up output directory
-	tar -zcf "output_${HOSTNAME}_${NOW}.tar.bz2" output
+	tar -zcf "output_${HOSTNAME}_${NOW}.tar.gz" output
 	echo -e "***Data collected is in the file output_${HOSTNAME}_${NOW}.tar.bz2 ***"
 
 
